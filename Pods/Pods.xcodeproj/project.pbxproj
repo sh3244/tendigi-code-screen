@@ -1,0 +1,981 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04C9F86144564D8638DE65BCD9482538 /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C501D2FCFD0539B48CCC2490AB263CD8 /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		086816DD05B9931F6D56DFCE1CA84EDA /* Stevia+Tap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594145C18264C37DF2985AA3437A19A5 /* Stevia+Tap.swift */; };
+		08DE30375096825E538BC814968B9123 /* Stevia+Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = B425CF32BE61A558EEE4C947BA6D651A /* Stevia+Content.swift */; };
+		0BF11259A1E98E35A7F8C4C054A2384C /* Stevia+FlexibleMargin.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0DFEB2A86A80892B97CDC644816B09 /* Stevia+FlexibleMargin.swift */; };
+		1715DA93539C3F7F491EB923B3D3B666 /* Pods-TendigiTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A5D61C8277033261FE41033B5F868E06 /* Pods-TendigiTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A501AF691BCFA70CD0A3E0581A90FE1 /* Pods-TendigiTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB32BB10496B767A6C7BA37CCB159BF /* Pods-TendigiTests-dummy.m */; };
+		1CE58DCDCF922DC1C1EB8002787169C7 /* Stevia+Equation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5A0121E6B6E279523A1F97739CDAA0 /* Stevia+Equation.swift */; };
+		248B7CC28580119186F3AF2138DECBC0 /* Stevia+Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A251CCB75037976B0690C9F3ED08E7 /* Stevia+Position.swift */; };
+		2BF9D81D2584ED1E3638373F915BACC8 /* Stevia+LayoutAnchors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7034913BC6133B51B22022E6851ED220 /* Stevia+LayoutAnchors.swift */; };
+		3D26A813038A3A91C87B6EC32AA953EB /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D8B18D72CED19DA0C94FEA8C8E00E1 /* SwiftyJSON-dummy.m */; };
+		463235F1E1436DBEFD4C339265D1BBB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		495793E4B6BA01D86B784EC66AA0AFD9 /* Pods-Tendigi-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA813E4392AC683047CCC3D96D6EFECA /* Pods-Tendigi-dummy.m */; };
+		4CCF1E56D1103CC4B8AE07576AD84B15 /* Stevia+Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59ED8C9F08DE4D4DBFDD57AB000DF6C /* Stevia+Operators.swift */; };
+		57DB5C38E15549DEC65E2BBF7E096EEB /* Stevia+Stacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CFE75FA2A7EF8590486E31CFD16A12 /* Stevia+Stacks.swift */; };
+		5819D839464C1E224391414A1F898251 /* Stevia+Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D76DE58E36939DDB2146EB3513C6E74 /* Stevia+Size.swift */; };
+		5F003848584F3E11223E823332A8AE60 /* Pods-Tendigi-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 04B91EBB7F1C4D80650DC8CCDBCC16BD /* Pods-Tendigi-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74D3610B615F853B22085C54038EB86F /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF7E7F27BA5DC563EDB48F04F9CDAC3 /* SwiftyJSON.swift */; };
+		7BA2E5C26F3D52FBD97E2FB826CA4A5D /* Stevia+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517087AB2EA59E557B3D33C074F9A8BC /* Stevia+Hierarchy.swift */; };
+		8238AEE7B581C8EA0D81D3F975A69900 /* Stevia+Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68AE34FFCA0F94A209D2DFFFD654AB13 /* Stevia+Notifications.swift */; };
+		8C1994EBD8EDBE022388182ADE117451 /* Stevia+Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EABCB760DD931A7E187C6ABBC81517 /* Stevia+Constraints.swift */; };
+		8D8C0692698FD65C8AF1E7C0FE5CFBA5 /* Stevia+Center.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AC0902FEAA3CD06B77CDC6D69482F5 /* Stevia+Center.swift */; };
+		93F5A220107D7B4A80CFBFD4DAFF5F94 /* Stevia+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB2CA818FE13BC62B68C6D90F5E1DC5 /* Stevia+Style.swift */; };
+		9400FA4A3DA96E4D9DBF238B64EBFAE6 /* SteviaLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E9C8F0863711743A1B011F014F6A73E6 /* SteviaLayout-dummy.m */; };
+		96B1266EF1DDE1AB5DF36A2C67377EF7 /* Stevia+GetConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B22B30419AA0F08BD20DB98195823B /* Stevia+GetConstraint.swift */; };
+		9B7AFB83825F6D3124F0F6F3AA76A430 /* SteviaLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DFCD448A2100C1217EC4A92397F535E /* SteviaLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C9D125AA1F413798D1029269E0C4BE2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		B5F0B54B3D1AD4B6577D7112FFA4B94F /* Stevia+Fill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51825415C429865781BBB0DC496266DF /* Stevia+Fill.swift */; };
+		CB61DB3B98EC4274229CCC7B3C748C73 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		D7BB364204BA647F4DEF7E8312D028EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		F4AE044CF0AB84741E490C17EBE59164 /* Stevia+Percentage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D040DDC22789A8558879D9271115B6B0 /* Stevia+Percentage.swift */; };
+		F864FE8D45C379A6A6073E5A9DBACCF7 /* Stevia+Alignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = E615353B621D4123940CC4D3BEE8C578 /* Stevia+Alignment.swift */; };
+		FE9316A9CDA10D44A6FF52F353EB10F4 /* Stevia+DoubleDash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D200C03CF9F547BAD9BD59B171ACE7 /* Stevia+DoubleDash.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		574A709218D20B457B8E50EA14218221 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EDE6D2F07F1412BF00ADB5307363A3D;
+			remoteInfo = SwiftyJSON;
+		};
+		65A8F52686AA350659A0A3915AB2075C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21744A27DBEC90CAB26DEF0104F92D74;
+			remoteInfo = SteviaLayout;
+		};
+		AAB134EECF9559514221AF11B2D1199C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BC71E9EF9D8028935B47545CA1AE870;
+			remoteInfo = "Pods-Tendigi";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04B91EBB7F1C4D80650DC8CCDBCC16BD /* Pods-Tendigi-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tendigi-umbrella.h"; sourceTree = "<group>"; };
+		0623332452138139E988E403C2854CE5 /* Pods_Tendigi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Tendigi.framework; path = "Pods-Tendigi.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		102F57D5DA239801EAF7188C75C716D7 /* Pods-Tendigi-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tendigi-resources.sh"; sourceTree = "<group>"; };
+		12EABCB760DD931A7E187C6ABBC81517 /* Stevia+Constraints.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stevia+Constraints.swift"; path = "Source/Stevia+Constraints.swift"; sourceTree = "<group>"; };
+		1F330858C22C37F2A22C138677E15AA8 /* Pods-TendigiTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TendigiTests-frameworks.sh"; sourceTree = "<group>"; };
+		1FB2CA818FE13BC62B68C6D90F5E1DC5 /* Stevia+Style.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stevia+Style.swift"; path = "Source/Stevia+Style.swift"; sourceTree = "<group>"; };
+		2240717152898CB07558F2DBC23EC8AA /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		26A15786E06AE2D989CF9D9720488B45 /* Pods-TendigiTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TendigiTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2D87457703B758EA8FE8A641E319253D /* Pods-TendigiTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TendigiTests-resources.sh"; sourceTree = "<group>"; };
+		3467FE60473FA47452E4448C8EB285B6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35C831CE520A8FDC3D57B8059096C4CF /* SteviaLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SteviaLayout.modulemap; sourceTree = "<group>"; };
+		37AC0902FEAA3CD06B77CDC6D69482F5 /* Stevia+Center.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stevia+Center.swift"; path = "Source/Stevia+Center.swift"; sourceTree = "<group>"; };
+		3887A77B173F4E09C1A80FC50C3D7729 /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		38D200C03CF9F547BAD9BD59B171ACE7 /* Stevia+DoubleDash.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stevia+DoubleDash.swift"; path = "Source/Stevia+DoubleDash.swift"; sourceTree = "<group>"; };
+		3D76DE58E36939DDB2146EB3513C6E74 /* Stevia+Size.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stevia+Size.swift"; path = "Source/Stevia+Size.swift"; sourceTree = "<group>"; };
+		3DFCD448A2100C1217EC4A92397F535E /* SteviaLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SteviaLayout-umbrella.h"; sourceTree = "<group>"; };
+		3FF7FBDD8D7381034F340A9299CD45E0 /* Pods-Tendigi-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tendigi-acknowledgements.plist"; sourceTree = "<group>"; };
+		40B22B30419AA0F08BD20DB98195823B /* Stevia+GetConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stevia+GetConstraint.swift"; path = "Source/Stevia+GetConstraint.swift"; sourceTree = "<group>"; };
+		42CFE75FA2A7EF8590486E31CFD16A12 /* Stevia+Stacks.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stevia+Stacks.swift"; path = "Source/Stevia+Stacks.swift"; sourceTree = "<group>"; };
+		46BDF63706D15E7B83BAA65F464707EB /* SteviaLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SteviaLayout-prefix.pch"; sourceTree = "<group>"; };
+		517087AB2EA59E557B3D33C074F9A8BC /* Stevia+Hierarchy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stevia+Hierarchy.swift"; path = "Source/Stevia+Hierarchy.swift"; sourceTree = "<group>"; };
+		51825415C429865781BBB0DC496266DF /* Stevia+Fill.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stevia+Fill.swift"; path = "Source/Stevia+Fill.swift"; sourceTree = "<group>"; };
+		5581FAB858D09E722FC62B295DCC0084 /* Pods-Tendigi.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Tendigi.modulemap"; sourceTree = "<group>"; };
+		594145C18264C37DF2985AA3437A19A5 /* Stevia+Tap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stevia+Tap.swift"; path = "Source/Stevia+Tap.swift"; sourceTree = "<group>"; };
+		5AF7E7F27BA5DC563EDB48F04F9CDAC3 /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
+		61A3D342455351B5A7A24705F547715F /* Pods-Tendigi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tendigi.debug.xcconfig"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		68AE34FFCA0F94A209D2DFFFD654AB13 /* Stevia+Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stevia+Notifications.swift"; path = "Source/Stevia+Notifications.swift"; sourceTree = "<group>"; };
+		7034913BC6133B51B22022E6851ED220 /* Stevia+LayoutAnchors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stevia+LayoutAnchors.swift"; path = "Source/Stevia+LayoutAnchors.swift"; sourceTree = "<group>"; };
+		7423654E19B5A928DD081AF4A1E6EBAA /* Pods_TendigiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TendigiTests.framework; path = "Pods-TendigiTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FE1F9EC362CE0C8CACE9F272B62CB79 /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
+		8F4A75E8B335DDFCF54AA28FBBFE3013 /* Pods-Tendigi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tendigi.release.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95D8B18D72CED19DA0C94FEA8C8E00E1 /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		A068C1A021BC4A47F2B5EEB61A110271 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5D61C8277033261FE41033B5F868E06 /* Pods-TendigiTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TendigiTests-umbrella.h"; sourceTree = "<group>"; };
+		AA813E4392AC683047CCC3D96D6EFECA /* Pods-Tendigi-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tendigi-dummy.m"; sourceTree = "<group>"; };
+		AE2CF0037702B258A7C36256F1FC20AF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B425CF32BE61A558EEE4C947BA6D651A /* Stevia+Content.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stevia+Content.swift"; path = "Source/Stevia+Content.swift"; sourceTree = "<group>"; };
+		BB5A0121E6B6E279523A1F97739CDAA0 /* Stevia+Equation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stevia+Equation.swift"; path = "Source/Stevia+Equation.swift"; sourceTree = "<group>"; };
+		BBD84CF414653D65B03E3365A861DAF4 /* Pods-TendigiTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TendigiTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BCE8AB3A05433A88518D228F760640A0 /* Pods-TendigiTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TendigiTests.modulemap"; sourceTree = "<group>"; };
+		BF3312B13E901BEEEFFA33AF87B01156 /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
+		C155EBC9D1CF33A79EF648187A02F159 /* SteviaLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SteviaLayout.xcconfig; sourceTree = "<group>"; };
+		C501D2FCFD0539B48CCC2490AB263CD8 /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+		C9A251CCB75037976B0690C9F3ED08E7 /* Stevia+Position.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stevia+Position.swift"; path = "Source/Stevia+Position.swift"; sourceTree = "<group>"; };
+		CDBEED4FA6A0CF8F6B10E34E2352CACF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D040DDC22789A8558879D9271115B6B0 /* Stevia+Percentage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stevia+Percentage.swift"; path = "Source/Stevia+Percentage.swift"; sourceTree = "<group>"; };
+		D7B4C12A9823E9FE5A5B69F232E258D7 /* Pods-Tendigi-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tendigi-frameworks.sh"; sourceTree = "<group>"; };
+		DC2CA36C24610D4CC59F1B90AA17D6E5 /* Pods-Tendigi-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tendigi-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DFB32BB10496B767A6C7BA37CCB159BF /* Pods-TendigiTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TendigiTests-dummy.m"; sourceTree = "<group>"; };
+		E615353B621D4123940CC4D3BEE8C578 /* Stevia+Alignment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stevia+Alignment.swift"; path = "Source/Stevia+Alignment.swift"; sourceTree = "<group>"; };
+		E9C8F0863711743A1B011F014F6A73E6 /* SteviaLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SteviaLayout-dummy.m"; sourceTree = "<group>"; };
+		EC8BF0963E5B08187647322EA96ECF51 /* Pods-TendigiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TendigiTests.release.xcconfig"; sourceTree = "<group>"; };
+		F3475D776F012A20F8F8131CACB75D14 /* Stevia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Stevia.framework; path = SteviaLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F59ED8C9F08DE4D4DBFDD57AB000DF6C /* Stevia+Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stevia+Operators.swift"; path = "Source/Stevia+Operators.swift"; sourceTree = "<group>"; };
+		FB0DFEB2A86A80892B97CDC644816B09 /* Stevia+FlexibleMargin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stevia+FlexibleMargin.swift"; path = "Source/Stevia+FlexibleMargin.swift"; sourceTree = "<group>"; };
+		FEF8858A169F96570585A5F4489D07AA /* Pods-TendigiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TendigiTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F4AE5E4DC3CD83A2A562DEE05DBD01E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				463235F1E1436DBEFD4C339265D1BBB7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C3969337548F0B88F41A819C8650DF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB61DB3B98EC4274229CCC7B3C748C73 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3515731ED12C5DF47343B8983A60DCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C9D125AA1F413798D1029269E0C4BE2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDF0F7F6D8DF86BCB476E1BE77DE3532 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7BB364204BA647F4DEF7E8312D028EB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		119CB9430CDB2A51C0A7AA19EC4B4FCE /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				5AF7E7F27BA5DC563EDB48F04F9CDAC3 /* SwiftyJSON.swift */,
+				8AFE6B36B02F8D3F85BA314BAC058720 /* Support Files */,
+			);
+			name = SwiftyJSON;
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		2090029D47FC811D5E8DC93D3CB384AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0623332452138139E988E403C2854CE5 /* Pods_Tendigi.framework */,
+				7423654E19B5A928DD081AF4A1E6EBAA /* Pods_TendigiTests.framework */,
+				F3475D776F012A20F8F8131CACB75D14 /* Stevia.framework */,
+				2240717152898CB07558F2DBC23EC8AA /* SwiftyJSON.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41325C53DBACE12A36D8186CD349600D /* SteviaLayout */ = {
+			isa = PBXGroup;
+			children = (
+				E615353B621D4123940CC4D3BEE8C578 /* Stevia+Alignment.swift */,
+				37AC0902FEAA3CD06B77CDC6D69482F5 /* Stevia+Center.swift */,
+				12EABCB760DD931A7E187C6ABBC81517 /* Stevia+Constraints.swift */,
+				B425CF32BE61A558EEE4C947BA6D651A /* Stevia+Content.swift */,
+				38D200C03CF9F547BAD9BD59B171ACE7 /* Stevia+DoubleDash.swift */,
+				BB5A0121E6B6E279523A1F97739CDAA0 /* Stevia+Equation.swift */,
+				51825415C429865781BBB0DC496266DF /* Stevia+Fill.swift */,
+				FB0DFEB2A86A80892B97CDC644816B09 /* Stevia+FlexibleMargin.swift */,
+				40B22B30419AA0F08BD20DB98195823B /* Stevia+GetConstraint.swift */,
+				517087AB2EA59E557B3D33C074F9A8BC /* Stevia+Hierarchy.swift */,
+				7034913BC6133B51B22022E6851ED220 /* Stevia+LayoutAnchors.swift */,
+				68AE34FFCA0F94A209D2DFFFD654AB13 /* Stevia+Notifications.swift */,
+				F59ED8C9F08DE4D4DBFDD57AB000DF6C /* Stevia+Operators.swift */,
+				D040DDC22789A8558879D9271115B6B0 /* Stevia+Percentage.swift */,
+				C9A251CCB75037976B0690C9F3ED08E7 /* Stevia+Position.swift */,
+				3D76DE58E36939DDB2146EB3513C6E74 /* Stevia+Size.swift */,
+				42CFE75FA2A7EF8590486E31CFD16A12 /* Stevia+Stacks.swift */,
+				1FB2CA818FE13BC62B68C6D90F5E1DC5 /* Stevia+Style.swift */,
+				594145C18264C37DF2985AA3437A19A5 /* Stevia+Tap.swift */,
+				DF2AC4B2CD49468CF9CFFB0120B5E53E /* Support Files */,
+			);
+			name = SteviaLayout;
+			path = SteviaLayout;
+			sourceTree = "<group>";
+		};
+		455FB173904744AEB1F58210017E8D1D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7198786B6634166C8EA687BC7F041FF4 /* Pods-Tendigi */,
+				CA7CAD6348001E7F942CB0184FED23B1 /* Pods-TendigiTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7198786B6634166C8EA687BC7F041FF4 /* Pods-Tendigi */ = {
+			isa = PBXGroup;
+			children = (
+				CDBEED4FA6A0CF8F6B10E34E2352CACF /* Info.plist */,
+				5581FAB858D09E722FC62B295DCC0084 /* Pods-Tendigi.modulemap */,
+				DC2CA36C24610D4CC59F1B90AA17D6E5 /* Pods-Tendigi-acknowledgements.markdown */,
+				3FF7FBDD8D7381034F340A9299CD45E0 /* Pods-Tendigi-acknowledgements.plist */,
+				AA813E4392AC683047CCC3D96D6EFECA /* Pods-Tendigi-dummy.m */,
+				D7B4C12A9823E9FE5A5B69F232E258D7 /* Pods-Tendigi-frameworks.sh */,
+				102F57D5DA239801EAF7188C75C716D7 /* Pods-Tendigi-resources.sh */,
+				04B91EBB7F1C4D80650DC8CCDBCC16BD /* Pods-Tendigi-umbrella.h */,
+				61A3D342455351B5A7A24705F547715F /* Pods-Tendigi.debug.xcconfig */,
+				8F4A75E8B335DDFCF54AA28FBBFE3013 /* Pods-Tendigi.release.xcconfig */,
+			);
+			name = "Pods-Tendigi";
+			path = "Target Support Files/Pods-Tendigi";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				FF3499BAEA12FC04F813C00AFB849015 /* Pods */,
+				2090029D47FC811D5E8DC93D3CB384AE /* Products */,
+				455FB173904744AEB1F58210017E8D1D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8AFE6B36B02F8D3F85BA314BAC058720 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3467FE60473FA47452E4448C8EB285B6 /* Info.plist */,
+				7FE1F9EC362CE0C8CACE9F272B62CB79 /* SwiftyJSON.modulemap */,
+				BF3312B13E901BEEEFFA33AF87B01156 /* SwiftyJSON.xcconfig */,
+				95D8B18D72CED19DA0C94FEA8C8E00E1 /* SwiftyJSON-dummy.m */,
+				3887A77B173F4E09C1A80FC50C3D7729 /* SwiftyJSON-prefix.pch */,
+				C501D2FCFD0539B48CCC2490AB263CD8 /* SwiftyJSON-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyJSON";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA7CAD6348001E7F942CB0184FED23B1 /* Pods-TendigiTests */ = {
+			isa = PBXGroup;
+			children = (
+				A068C1A021BC4A47F2B5EEB61A110271 /* Info.plist */,
+				BCE8AB3A05433A88518D228F760640A0 /* Pods-TendigiTests.modulemap */,
+				BBD84CF414653D65B03E3365A861DAF4 /* Pods-TendigiTests-acknowledgements.markdown */,
+				26A15786E06AE2D989CF9D9720488B45 /* Pods-TendigiTests-acknowledgements.plist */,
+				DFB32BB10496B767A6C7BA37CCB159BF /* Pods-TendigiTests-dummy.m */,
+				1F330858C22C37F2A22C138677E15AA8 /* Pods-TendigiTests-frameworks.sh */,
+				2D87457703B758EA8FE8A641E319253D /* Pods-TendigiTests-resources.sh */,
+				A5D61C8277033261FE41033B5F868E06 /* Pods-TendigiTests-umbrella.h */,
+				FEF8858A169F96570585A5F4489D07AA /* Pods-TendigiTests.debug.xcconfig */,
+				EC8BF0963E5B08187647322EA96ECF51 /* Pods-TendigiTests.release.xcconfig */,
+			);
+			name = "Pods-TendigiTests";
+			path = "Target Support Files/Pods-TendigiTests";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DF2AC4B2CD49468CF9CFFB0120B5E53E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE2CF0037702B258A7C36256F1FC20AF /* Info.plist */,
+				35C831CE520A8FDC3D57B8059096C4CF /* SteviaLayout.modulemap */,
+				C155EBC9D1CF33A79EF648187A02F159 /* SteviaLayout.xcconfig */,
+				E9C8F0863711743A1B011F014F6A73E6 /* SteviaLayout-dummy.m */,
+				46BDF63706D15E7B83BAA65F464707EB /* SteviaLayout-prefix.pch */,
+				3DFCD448A2100C1217EC4A92397F535E /* SteviaLayout-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SteviaLayout";
+			sourceTree = "<group>";
+		};
+		FF3499BAEA12FC04F813C00AFB849015 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				41325C53DBACE12A36D8186CD349600D /* SteviaLayout */,
+				119CB9430CDB2A51C0A7AA19EC4B4FCE /* SwiftyJSON */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		190CCEBE646BC53B41CE8BFB24718A55 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1715DA93539C3F7F491EB923B3D3B666 /* Pods-TendigiTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		386F75E2957B79255D106AED71FB5EEF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F003848584F3E11223E823332A8AE60 /* Pods-Tendigi-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B1206B98E162826CE9923E7379D3DCD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C9F86144564D8638DE65BCD9482538 /* SwiftyJSON-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A4FD8D39B5E7277B319FD01B5E4054D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B7AFB83825F6D3124F0F6F3AA76A430 /* SteviaLayout-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		21744A27DBEC90CAB26DEF0104F92D74 /* SteviaLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33395D1EC29A8A34539F6FCDCA218B59 /* Build configuration list for PBXNativeTarget "SteviaLayout" */;
+			buildPhases = (
+				80582A1F1C8AD5A509B0AB6C5CBA4F63 /* Sources */,
+				FDF0F7F6D8DF86BCB476E1BE77DE3532 /* Frameworks */,
+				8A4FD8D39B5E7277B319FD01B5E4054D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SteviaLayout;
+			productName = SteviaLayout;
+			productReference = F3475D776F012A20F8F8131CACB75D14 /* Stevia.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3BC71E9EF9D8028935B47545CA1AE870 /* Pods-Tendigi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B9BBEC03116679D69D0DBD7E3B92893 /* Build configuration list for PBXNativeTarget "Pods-Tendigi" */;
+			buildPhases = (
+				5AAA2C459FD7822FBC65DB5C098E5A8C /* Sources */,
+				5F4AE5E4DC3CD83A2A562DEE05DBD01E /* Frameworks */,
+				386F75E2957B79255D106AED71FB5EEF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB8CD54F9939CD550DFA06D93D29D200 /* PBXTargetDependency */,
+				AFECD22B7DF26D7633B681FC2678E881 /* PBXTargetDependency */,
+			);
+			name = "Pods-Tendigi";
+			productName = "Pods-Tendigi";
+			productReference = 0623332452138139E988E403C2854CE5 /* Pods_Tendigi.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5EDE6D2F07F1412BF00ADB5307363A3D /* SwiftyJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FFFEEE2E9D50E48C96FE445882C6EB9 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
+			buildPhases = (
+				81EB382FCFA9E066E097324B86207B14 /* Sources */,
+				6C3969337548F0B88F41A819C8650DF9 /* Frameworks */,
+				7B1206B98E162826CE9923E7379D3DCD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyJSON;
+			productName = SwiftyJSON;
+			productReference = 2240717152898CB07558F2DBC23EC8AA /* SwiftyJSON.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AB73957155C5066CD151044B8CBC653D /* Pods-TendigiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96741BDB4D7274F7A40EEE83FBB67CC6 /* Build configuration list for PBXNativeTarget "Pods-TendigiTests" */;
+			buildPhases = (
+				B0B597E5EFF9549A760CFB01C9BC2C3A /* Sources */,
+				D3515731ED12C5DF47343B8983A60DCA /* Frameworks */,
+				190CCEBE646BC53B41CE8BFB24718A55 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46C742C2A48E2FC0439C427C288AFDF1 /* PBXTargetDependency */,
+			);
+			name = "Pods-TendigiTests";
+			productName = "Pods-TendigiTests";
+			productReference = 7423654E19B5A928DD081AF4A1E6EBAA /* Pods_TendigiTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 2090029D47FC811D5E8DC93D3CB384AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BC71E9EF9D8028935B47545CA1AE870 /* Pods-Tendigi */,
+				AB73957155C5066CD151044B8CBC653D /* Pods-TendigiTests */,
+				21744A27DBEC90CAB26DEF0104F92D74 /* SteviaLayout */,
+				5EDE6D2F07F1412BF00ADB5307363A3D /* SwiftyJSON */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5AAA2C459FD7822FBC65DB5C098E5A8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				495793E4B6BA01D86B784EC66AA0AFD9 /* Pods-Tendigi-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80582A1F1C8AD5A509B0AB6C5CBA4F63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F864FE8D45C379A6A6073E5A9DBACCF7 /* Stevia+Alignment.swift in Sources */,
+				8D8C0692698FD65C8AF1E7C0FE5CFBA5 /* Stevia+Center.swift in Sources */,
+				8C1994EBD8EDBE022388182ADE117451 /* Stevia+Constraints.swift in Sources */,
+				08DE30375096825E538BC814968B9123 /* Stevia+Content.swift in Sources */,
+				FE9316A9CDA10D44A6FF52F353EB10F4 /* Stevia+DoubleDash.swift in Sources */,
+				1CE58DCDCF922DC1C1EB8002787169C7 /* Stevia+Equation.swift in Sources */,
+				B5F0B54B3D1AD4B6577D7112FFA4B94F /* Stevia+Fill.swift in Sources */,
+				0BF11259A1E98E35A7F8C4C054A2384C /* Stevia+FlexibleMargin.swift in Sources */,
+				96B1266EF1DDE1AB5DF36A2C67377EF7 /* Stevia+GetConstraint.swift in Sources */,
+				7BA2E5C26F3D52FBD97E2FB826CA4A5D /* Stevia+Hierarchy.swift in Sources */,
+				2BF9D81D2584ED1E3638373F915BACC8 /* Stevia+LayoutAnchors.swift in Sources */,
+				8238AEE7B581C8EA0D81D3F975A69900 /* Stevia+Notifications.swift in Sources */,
+				4CCF1E56D1103CC4B8AE07576AD84B15 /* Stevia+Operators.swift in Sources */,
+				F4AE044CF0AB84741E490C17EBE59164 /* Stevia+Percentage.swift in Sources */,
+				248B7CC28580119186F3AF2138DECBC0 /* Stevia+Position.swift in Sources */,
+				5819D839464C1E224391414A1F898251 /* Stevia+Size.swift in Sources */,
+				57DB5C38E15549DEC65E2BBF7E096EEB /* Stevia+Stacks.swift in Sources */,
+				93F5A220107D7B4A80CFBFD4DAFF5F94 /* Stevia+Style.swift in Sources */,
+				086816DD05B9931F6D56DFCE1CA84EDA /* Stevia+Tap.swift in Sources */,
+				9400FA4A3DA96E4D9DBF238B64EBFAE6 /* SteviaLayout-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81EB382FCFA9E066E097324B86207B14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D26A813038A3A91C87B6EC32AA953EB /* SwiftyJSON-dummy.m in Sources */,
+				74D3610B615F853B22085C54038EB86F /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0B597E5EFF9549A760CFB01C9BC2C3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A501AF691BCFA70CD0A3E0581A90FE1 /* Pods-TendigiTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		46C742C2A48E2FC0439C427C288AFDF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tendigi";
+			target = 3BC71E9EF9D8028935B47545CA1AE870 /* Pods-Tendigi */;
+			targetProxy = AAB134EECF9559514221AF11B2D1199C /* PBXContainerItemProxy */;
+		};
+		AFECD22B7DF26D7633B681FC2678E881 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJSON;
+			target = 5EDE6D2F07F1412BF00ADB5307363A3D /* SwiftyJSON */;
+			targetProxy = 574A709218D20B457B8E50EA14218221 /* PBXContainerItemProxy */;
+		};
+		CB8CD54F9939CD550DFA06D93D29D200 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SteviaLayout;
+			target = 21744A27DBEC90CAB26DEF0104F92D74 /* SteviaLayout */;
+			targetProxy = 65A8F52686AA350659A0A3915AB2075C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		063198AB09B9CDB3A695432FC17AD8CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		0AE514362E71E1242C4FC1AC1A35AB45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61A3D342455351B5A7A24705F547715F /* Pods-Tendigi.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Tendigi/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Tendigi/Pods-Tendigi.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		26FDC6E4753258EFA1288781A0B218AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F4A75E8B335DDFCF54AA28FBBFE3013 /* Pods-Tendigi.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Tendigi/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Tendigi/Pods-Tendigi.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		306531F898AAC6756211F6695AD8F2C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF3312B13E901BEEEFFA33AF87B01156 /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyJSON;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5FE9B54F470E786C475FC0E46E4058D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF3312B13E901BEEEFFA33AF87B01156 /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyJSON;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		684BCFF8769AB270EE86572B0F4FC181 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEF8858A169F96570585A5F4489D07AA /* Pods-TendigiTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TendigiTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TendigiTests/Pods-TendigiTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		842F6BB4B8BCA8FA9ED537DA7F66F29C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC8BF0963E5B08187647322EA96ECF51 /* Pods-TendigiTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TendigiTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TendigiTests/Pods-TendigiTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		87EAC867385563488A6D8F1E74AC46B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		924C87D390EA3209DC8E3F9B69771F88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C155EBC9D1CF33A79EF648187A02F159 /* SteviaLayout.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SteviaLayout/SteviaLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SteviaLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SteviaLayout/SteviaLayout.modulemap";
+				PRODUCT_MODULE_NAME = Stevia;
+				PRODUCT_NAME = Stevia;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C7DF8C8DB326F784DB1594AEC72A837B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C155EBC9D1CF33A79EF648187A02F159 /* SteviaLayout.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SteviaLayout/SteviaLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SteviaLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SteviaLayout/SteviaLayout.modulemap";
+				PRODUCT_MODULE_NAME = Stevia;
+				PRODUCT_NAME = Stevia;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87EAC867385563488A6D8F1E74AC46B4 /* Debug */,
+				063198AB09B9CDB3A695432FC17AD8CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33395D1EC29A8A34539F6FCDCA218B59 /* Build configuration list for PBXNativeTarget "SteviaLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				924C87D390EA3209DC8E3F9B69771F88 /* Debug */,
+				C7DF8C8DB326F784DB1594AEC72A837B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B9BBEC03116679D69D0DBD7E3B92893 /* Build configuration list for PBXNativeTarget "Pods-Tendigi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AE514362E71E1242C4FC1AC1A35AB45 /* Debug */,
+				26FDC6E4753258EFA1288781A0B218AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FFFEEE2E9D50E48C96FE445882C6EB9 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FE9B54F470E786C475FC0E46E4058D6 /* Debug */,
+				306531F898AAC6756211F6695AD8F2C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96741BDB4D7274F7A40EEE83FBB67CC6 /* Build configuration list for PBXNativeTarget "Pods-TendigiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				684BCFF8769AB270EE86572B0F4FC181 /* Debug */,
+				842F6BB4B8BCA8FA9ED537DA7F66F29C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
